@@ -431,7 +431,7 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
                         int screenWidth = mParentLayout.getWidth();
                         mFloatingActionButtonController.setScreenWidth(screenWidth);
                         mFloatingActionButtonController.align(
-                                getFabAlignment(), false /* animate */);
+                                getFabAlignment(), false );
                     }
                 });
 
@@ -443,20 +443,23 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
         Trace.endSection();
         Trace.endSection();
 
-        /*
-         *   PhreakPhone Modification To The Default Android Dialer Application
-         *   Hides the Default Dialer User Interface With a White Screen
-         *   TODO: Create An Intent Beneath This Code
-         *   TODO: Then Launch Directly into New Activity
-         */
+        // ---------------------------------------------------------------------->
+        //   PhreakPhone Modification To The Default Android Dialer Application
+        //   Hides the Default Dialer User Interface With a White Screen
+        //   And Then Immediately Launches Into A New Activity
+        // ---------------------------------------------------------------------->
         LinearLayout removeContentWrapperLayout = (LinearLayout) findViewById(R.id.remove_content_wrapper);
         removeContentWrapperLayout.setVisibility(View.GONE);
         FrameLayout dialtactsContainerLayout = (FrameLayout) findViewById(R.id.dialtacts_container);
         dialtactsContainerLayout.setVisibility(View.GONE);
         searchEditTextLayout.setVisibility(View.GONE);
+        // Launch Directly Into New Activity
+        Intent i = new Intent(this, BlockNumberActivity.class);
+        startActivity(i);
         // ---------------------------------------------------------------------->
         // End PhreakPhone Modification to Dialtacts Activity ------------------->
         // ---------------------------------------------------------------------->
+
 
     }
 
