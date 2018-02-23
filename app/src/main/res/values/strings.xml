@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Custom Dialer</string>
+    <!-- Toast shown when text is copied to the clipboard [CHAR LIMIT=64] -->
+    <string name="toast_text_copied">Text copied</string>
+    <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
+    <string name="copy_text">Copy to clipboard</string>
+
+    <!-- Action string for calling a custom phone number -->
+    <string name="call_custom">Call
+        <xliff:g id="custom">%s</xliff:g>
+    </string>
+    <!-- Action string for calling a home phone number -->
+    <string name="call_home">Call home</string>
+    <!-- Action string for calling a mobile phone number -->
+    <string name="call_mobile">Call mobile</string>
+    <!-- Action string for calling a work phone number -->
+    <string name="call_work">Call work</string>
+    <!-- Action string for calling a work fax phone number -->
+    <string name="call_fax_work">Call work fax</string>
+    <!-- Action string for calling a home fax phone number -->
+    <string name="call_fax_home">Call home fax</string>
+    <!-- Action string for calling a pager phone number -->
+    <string name="call_pager">Call pager</string>
+    <!-- Action string for calling an other phone number -->
+    <string name="call_other">Call</string>
+    <!-- Action string for calling a callback number -->
+    <string name="call_callback">Call callback</string>
+    <!-- Action string for calling a car phone number -->
+    <string name="call_car">Call car</string>
+    <!-- Action string for calling a company main phone number -->
+    <string name="call_company_main">Call company main</string>
+    <!-- Action string for calling a ISDN phone number -->
+    <string name="call_isdn">Call ISDN</string>
+    <!-- Action string for calling a main phone number -->
+    <string name="call_main">Call main</string>
+    <!-- Action string for calling an other fax phone number -->
+    <string name="call_other_fax">Call fax</string>
+    <!-- Action string for calling a radio phone number -->
+    <string name="call_radio">Call radio</string>
+    <!-- Action string for calling a Telex phone number -->
+    <string name="call_telex">Call telex</string>
+    <!-- Action string for calling a TTY/TDD phone number -->
+    <string name="call_tty_tdd">Call TTY/TDD</string>
+    <!-- Action string for calling a work mobile phone number -->
+    <string name="call_work_mobile">Call work mobile</string>
+    <!-- Action string for calling a work pager phone number -->
+    <string name="call_work_pager">Call work pager</string>
+    <!-- Action string for calling an assistant phone number -->
+    <string name="call_assistant">Call
+        <xliff:g id="assistant">%s</xliff:g>
+    </string>
+    <!-- Action string for calling a MMS phone number -->
+    <string name="call_mms">Call MMS</string>
+    <!-- Action string for calling a contact by shortcut -->
+    <string name="call_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (Call)</string>
+
+    <!-- Action string for sending an SMS to a custom phone number -->
+    <string name="sms_custom">Text
+        <xliff:g id="custom">%s</xliff:g>
+    </string>
+    <!-- Action string for sending an SMS to a home phone number -->
+    <string name="sms_home">Text home</string>
+    <!-- Action string for sending an SMS to a mobile phone number -->
+    <string name="sms_mobile">Text mobile</string>
+    <!-- Action string for sending an SMS to a work phone number -->
+    <string name="sms_work">Text work</string>
+    <!-- Action string for sending an SMS to a work fax phone number -->
+    <string name="sms_fax_work">Text work fax</string>
+    <!-- Action string for sending an SMS to a home fax phone number -->
+    <string name="sms_fax_home">Text home fax</string>
+    <!-- Action string for sending an SMS to a pager phone number -->
+    <string name="sms_pager">Text pager</string>
+    <!-- Action string for sending an SMS to an other phone number -->
+    <string name="sms_other">Text</string>
+    <!-- Action string for sending an SMS to a callback number -->
+    <string name="sms_callback">Text callback</string>
+    <!-- Action string for sending an SMS to a car phone number -->
+    <string name="sms_car">Text car</string>
+    <!-- Action string for sending an SMS to a company main phone number -->
+    <string name="sms_company_main">Text company main</string>
+    <!-- Action string for sending an SMS to a ISDN phone number -->
+    <string name="sms_isdn">Text ISDN</string>
+    <!-- Action string for sending an SMS to a main phone number -->
+    <string name="sms_main">Text main</string>
+    <!-- Action string for sending an SMS to an other fax phone number -->
+    <string name="sms_other_fax">Text fax</string>
+    <!-- Action string for sending an SMS to a radio phone number -->
+    <string name="sms_radio">Text radio</string>
+    <!-- Action string for sending an SMS to a Telex phone number -->
+    <string name="sms_telex">Text telex</string>
+    <!-- Action string for sending an SMS to a TTY/TDD phone number -->
+    <string name="sms_tty_tdd">Text TTY/TDD</string>
+    <!-- Action string for sending an SMS to a work mobile phone number -->
+    <string name="sms_work_mobile">Text work mobile</string>
+    <!-- Action string for sending an SMS to a work pager phone number -->
+    <string name="sms_work_pager">Text work pager</string>
+    <!-- Action string for sending an SMS to an assistant phone number -->
+    <string name="sms_assistant">Text
+        <xliff:g id="assistant">%s</xliff:g>
+    </string>
+    <!-- Action string for sending an SMS to a MMS phone number -->
+    <string name="sms_mms">Text MMS</string>
+    <!-- Action string for sending an SMS to a contact by shortcut -->
+    <string name="sms_by_shortcut"><xliff:g id="contact_name">%s</xliff:g> (Message)</string>
+
+
+    <!-- Title of the confirmation dialog for clearing frequents. [CHAR LIMIT=37] -->
+    <string name="clearFrequentsConfirmation_title">Clear frequently contacted?</string>
+
+    <!-- Confirmation dialog for clearing frequents. [CHAR LIMIT=NONE] -->
+    <string name="clearFrequentsConfirmation">You\'ll clear the frequently contacted list in the
+        Contacts and Phone apps, and force email apps to learn your addressing preferences from
+        scratch.
+    </string>
+
+    <!-- Title of the "Clearing frequently contacted" progress-dialog [CHAR LIMIT=35] -->
+    <string name="clearFrequentsProgress_title">Clearing frequently contacted\u2026</string>
+
+    <!--  Used to display as default status when the contact is available for chat [CHAR LIMIT=19] -->
+    <string name="status_available">Available</string>
+
+    <!--  Used to display as default status when the contact is away or idle for chat [CHAR LIMIT=19] -->
+    <string name="status_away">Away</string>
+
+    <!--  Used to display as default status when the contact is busy or Do not disturb for chat [CHAR LIMIT=19] -->
+    <string name="status_busy">Busy</string>
+
+    <!-- Directory partition name (also exists in contacts) -->
+    <string name="contactsList">Contacts</string>
+
+    <!-- The name of the invisible local contact directory -->
+    <string name="local_invisible_directory">Other</string>
+
+    <!-- The label in section header in the contact list for a contact directory [CHAR LIMIT=128] -->
+    <string name="directory_search_label">Directory</string>
+
+    <!-- The label in section header in the contact list for a work contact directory [CHAR LIMIT=128] -->
+    <string name="directory_search_label_work">Work directory</string>
+
+    <!-- The label in section header in the contact list for a local contacts [CHAR LIMIT=128] -->
+    <string name="local_search_label">All contacts</string>
+
+    <!-- String describing the text on the header of the profile contact in the contacts list
+         This may be programatically capitalized. [CHAR LIMIT=20] -->
+    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Me</string>
+
+    <!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20]
+         (also in contacts) -->
+    <string name="search_results_searching">Searching\u2026</string>
+
+    <!-- Displayed at the top of search results indicating that more contacts were found than shown [CHAR LIMIT=64] -->
+    <string name="foundTooManyContacts">More than <xliff:g id="count">%d</xliff:g> found.</string>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected. [CHAR LIMIT=30]
+         (also in contacts) -->
+    <string name="listFoundAllContactsZero">No contacts</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
+    <plurals name="searchFoundContacts">
+        <item quantity="one">1 found</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> found</item>
+    </plurals>
+
+    <!-- String describing the text for photo of a contact in a contacts list.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_quick_contact_for">Quick contact for <xliff:g id="name">%1$s</xliff:g></string>
+
+    <!-- Shown as the display name for a person when the name is missing or unknown. [CHAR LIMIT=18]-->
+    <string name="missing_name">(No name)</string>
+
+    <!-- The text displayed on the divider for the Favorites tab in Phone app indicating that items below it are frequently called as opposed to starred contacts [CHAR LIMIT = 39] -->
+    <string name="favoritesFrequentCalled">Frequently called</string>
+
+    <!-- The text displayed on the divider for the Favorites tab in People app indicating that items below it are frequently contacted [CHAR LIMIT = 39] -->
+    <string name="favoritesFrequentContacted">Frequently contacted</string>
+
+    <!-- String describing a contact picture that introduces users to the contact detail screen.
+
+       Used by AccessibilityService to announce the purpose of the button.
+
+       [CHAR LIMIT=NONE]
+    -->
+    <string name="description_view_contact_detail" msgid="2795575601596468581">View contact</string>
+
+    <!-- Contact list filter selection indicating that the list shows all contacts with phone numbers [CHAR LIMIT=64] -->
+    <string name="list_filter_phones">All contacts with phone numbers</string>
+
+    <!-- Contact list filter selection indicating that the list shows all work contacts with phone numbers [CHAR LIMIT=64] -->
+    <string name="list_filter_phones_work">Work profile contacts</string>
+
+    <!-- Button to view the updates from the current group on the group detail page [CHAR LIMIT=25] -->
+    <string name="view_updates_from_group">View updates</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the phone
+         and will not be synced. -->
+    <string name="account_phone">Phone-only, unsynced</string>
+
+    <!-- Header that expands to list all name types when editing a structured name of a contact
+         [CHAR LIMIT=20] -->
+    <string name="nameLabelsGroup">Name</string>
+
+    <!-- Header that expands to list all nickname types when editing a nickname of a contact
+         [CHAR LIMIT=20] -->
+    <string name="nicknameLabelsGroup">Nickname</string>
+
+    <!-- Field title for the full name of a contact [CHAR LIMIT=64]-->
+    <string name="full_name">Name</string>
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">First name</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">Last name</string>
+    <!-- Field title for the prefix name of a contact -->
+    <string name="name_prefix">Name prefix</string>
+    <!-- Field title for the middle name of a contact -->
+    <string name="name_middle">Middle name</string>
+    <!-- Field title for the suffix name of a contact -->
+    <string name="name_suffix">Name suffix</string>
+
+    <!-- Field title for the phonetic name of a contact [CHAR LIMIT=64]-->
+    <string name="name_phonetic">Phonetic name</string>
+
+    <!-- Field title for the phonetic given name of a contact -->
+    <string name="name_phonetic_given">Phonetic first name</string>
+    <!-- Field title for the phonetic middle name of a contact -->
+    <string name="name_phonetic_middle">Phonetic middle name</string>
+    <!-- Field title for the phonetic family name of a contact -->
+    <string name="name_phonetic_family">Phonetic last name</string>
+
+    <!-- Header that expands to list all of the types of phone numbers when editing or creating a
+         phone number for a contact [CHAR LIMIT=20] -->
+    <string name="phoneLabelsGroup">Phone</string>
+
+    <!-- Header that expands to list all of the types of email addresses when editing or creating
+         an email address for a contact [CHAR LIMIT=20] -->
+    <string name="emailLabelsGroup">Email</string>
+
+    <!-- Header that expands to list all of the types of postal addresses when editing or creating
+         an postal address for a contact [CHAR LIMIT=20] -->
+    <string name="postalLabelsGroup">Address</string>
+
+    <!-- Header that expands to list all of the types of IM account when editing or creating an IM
+         account for a contact [CHAR LIMIT=20] -->
+    <string name="imLabelsGroup">IM</string>
+
+    <!-- Header that expands to list all organization types when editing an organization of a
+         contact [CHAR LIMIT=20] -->
+    <string name="organizationLabelsGroup">Organization</string>
+
+    <!-- Header for the list of all relationships for a contact [CHAR LIMIT=20] -->
+    <string name="relationLabelsGroup">Relationship</string>
+
+    <!-- Header that expands to list all event types when editing an event of a contact
+         [CHAR LIMIT=20] -->
+    <string name="eventLabelsGroup">Special date</string>
+
+    <!-- Generic action string for text messaging a contact. Used by AccessibilityService to
+         announce the purpose of the view. [CHAR LIMIT=NONE] -->
+    <string name="sms">Text message</string>
+
+    <!-- Field title for the full postal address of a contact [CHAR LIMIT=64]-->
+    <string name="postal_address">Address</string>
+
+    <!-- Hint text for the organization name when editing -->
+    <string name="ghostData_company">Company</string>
+
+    <!-- Hint text for the organization title when editing -->
+    <string name="ghostData_title">Title</string>
+
+    <!-- The label describing the Notes field of a contact. This field allows free form text entry
+         about a contact -->
+    <string name="label_notes">Notes</string>
+
+    <!-- The label describing the SIP address field of a contact. [CHAR LIMIT=20] -->
+    <string name="label_sip_address">SIP</string>
+
+    <!-- Header that expands to list all website types when editing a website of a contact
+         [CHAR LIMIT=20] -->
+    <string name="websiteLabelsGroup">Website</string>
+
+    <!-- Header for the list of all groups for a contact [CHAR LIMIT=20] -->
+    <string name="groupsLabel">Groups</string>
+
+    <!-- Action string for sending an email to a home email address -->
+    <string name="email_home">Email home</string>
+    <!-- Action string for sending an email to a mobile email address -->
+    <string name="email_mobile">Email mobile</string>
+    <!-- Action string for sending an email to a work email address -->
+    <string name="email_work">Email work</string>
+    <!-- Action string for sending an email to an other email address -->
+    <string name="email_other">Email</string>
+    <!-- Action string for sending an email to a custom email address -->
+    <string name="email_custom">Email <xliff:g id="custom">%s</xliff:g></string>
+
+    <!-- Generic action string for sending an email -->
+    <string name="email">Email</string>
+
+    <!-- Field title for the street of a structured postal address of a contact -->
+    <string name="postal_street">Street</string>
+    <!-- Field title for the PO box of a structured postal address of a contact -->
+    <string name="postal_pobox">PO box</string>
+    <!-- Field title for the neighborhood of a structured postal address of a contact -->
+    <string name="postal_neighborhood">Neighborhood</string>
+    <!-- Field title for the city of a structured postal address of a contact -->
+    <string name="postal_city">City</string>
+    <!-- Field title for the region, or state, of a structured postal address of a contact -->
+    <string name="postal_region">State</string>
+    <!-- Field title for the postal code of a structured postal address of a contact -->
+    <string name="postal_postcode">ZIP code</string>
+    <!-- Field title for the country of a structured postal address of a contact -->
+    <string name="postal_country">Country</string>
+
+    <!-- Action string for viewing a home postal address -->
+    <string name="map_home">View home address</string>
+    <!-- Action string for viewing a work postal address -->
+    <string name="map_work">View work address</string>
+    <!-- Action string for viewing an other postal address -->
+    <string name="map_other">View address</string>
+    <!-- Action string for viewing a custom postal address -->
+    <string name="map_custom">View <xliff:g id="custom">%s</xliff:g> address</string>
+
+    <!-- Action string for starting an IM chat with the AIM protocol -->
+    <string name="chat_aim">Chat using AIM</string>
+    <!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
+    <string name="chat_msn">Chat using Windows Live</string>
+    <!-- Action string for starting an IM chat with the Yahoo protocol -->
+    <string name="chat_yahoo">Chat using Yahoo</string>
+    <!-- Action string for starting an IM chat with the Skype protocol -->
+    <string name="chat_skype">Chat using Skype</string>
+    <!-- Action string for starting an IM chat with the QQ protocol -->
+    <string name="chat_qq">Chat using QQ</string>
+    <!-- Action string for starting an IM chat with the Google Talk protocol -->
+    <string name="chat_gtalk">Chat using Google Talk</string>
+    <!-- Action string for starting an IM chat with the ICQ protocol -->
+    <string name="chat_icq">Chat using ICQ</string>
+    <!-- Action string for starting an IM chat with the Jabber protocol -->
+    <string name="chat_jabber">Chat using Jabber</string>
+
+    <!-- Generic action string for starting an IM chat -->
+    <string name="chat">Chat</string>
+
+    <!-- String describing the Contact Editor Minus button
+
+         Used by AccessibilityService to announce the purpose of the button.
+
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_minus_button">delete</string>
+
+    <!-- Content description for the expand or collapse name fields button.
+         Clicking this button causes the name editor to toggle between showing
+         a single field where the entire name is edited at once, or multiple
+         fields corresponding to each part of the name (Name Prefix, First Name,
+         Middle Name, Last Name, Name Suffix).
+         [CHAR LIMIT=NONE] -->
+    <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
+
+    <!-- Content description for the expand or collapse phonetic name fields button. [CHAR LIMIT=100] -->
+    <string name="expand_collapse_phonetic_name_fields_description">Expand or collapse phonetic
+        name fields</string>
+
+    <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
+    <string name="list_filter_all_accounts">All contacts</string>
+
+    <!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
+    <string name="list_filter_all_starred">Starred</string>
+
+    <!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
+    <string name="list_filter_customize">Customize</string>
+
+    <!-- Contact list filter selection indicating that the list shows only the selected contact [CHAR LIMIT=64] -->
+    <string name="list_filter_single">Contact</string>
+
+    <!-- List title for a special contacts group that covers all contacts. [CHAR LIMIT=25] -->
+    <string name="display_ungrouped">All other contacts</string>
+
+    <!-- List title for a special contacts group that covers all contacts that
+a        ren't members of any other group. [CHAR LIMIT=25] -->
+    <string name="display_all_contacts">All contacts</string>
+
+    <string name="menu_sync_remove">Remove sync group</string>
+    <string name="dialog_sync_add">Add sync group</string>
+    <string name="display_more_groups">More groups\u2026</string>
+
+    <!-- Warning message given to users just before they remove a currently syncing
+         group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
+    <string name="display_warn_remove_ungrouped">Removing \"<xliff:g example="Starred" id="group">%s</xliff:g>\" from sync will also remove any ungrouped contacts from sync.</string>
+
+    <!-- Displayed in a spinner dialog as user changes to display options are saved -->
+    <string name="savingDisplayGroups">Saving display options\u2026</string>
+
+    <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+    <string name="menu_done">Done</string>
+
+    <!-- Menu item to indicate you want to cancel the current editing process and NOT save the changes you've made [CHAR LIMIT=12] -->
+    <string name="menu_doNotSave">Cancel</string>
+
+    <!-- Displayed at the top of the contacts showing the account filter selected  [CHAR LIMIT=64] -->
+    <string name="listAllContactsInAccount">Contacts in <xliff:g example="abc@gmail.com" id="name">%s</xliff:g></string>
+
+    <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
+    <string name="listCustomView">Contacts in custom view</string>
+
+    <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
+    <string name="listSingleContact">Single contact</string>
+
+    <!-- Message asking user to select an account to save contacts imported from vcard or SIM card [CHAR LIMIT=64] -->
+    <string name="dialog_new_contact_account">Save imported contacts to:</string>
+
+    <!-- Action string for selecting SIM for importing contacts -->
+    <string name="import_from_sim">Import from SIM card</string>
+
+    <!-- Action string for selecting a SIM subscription for importing contacts -->
+    <string name="import_from_sim_summary">Import from SIM <xliff:g id="sim_name">^1</xliff:g> - <xliff:g id="sim_number">^2</xliff:g></string>
+
+    <!-- Action string for selecting a SIM subscription for importing contacts, without a phone number -->
+    <string name="import_from_sim_summary_no_number">Import from SIM <xliff:g id="sim_name">%1$s</xliff:g></string>
+
+    <!-- Action string for selecting a .vcf file to import contacts from [CHAR LIMIT=30] -->
+    <string name="import_from_vcf_file" product="default">Import from .vcf file</string>
+
+    <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
+         The argument is file name for the vCard import the user wants to cancel.
+         [CHAR LIMIT=128] -->
+    <string name="cancel_import_confirmation_message">Cancel import of <xliff:g example="import.vcf" id="filename">%s</xliff:g>?</string>
+
+    <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard export.
+         The argument is file name for the vCard export the user wants to cancel.
+         [CHAR LIMIT=128] -->
+    <string name="cancel_export_confirmation_message">Cancel export of <xliff:g example="export.vcf" id="filename">%s</xliff:g>?</string>
+
+    <!-- Title shown in a Dialog telling users cancel vCard import/export operation is failed. [CHAR LIMIT=40] -->
+    <string name="cancel_vcard_import_or_export_failed">Couldn\'t cancel vCard import/export</string>
+
+    <!-- The failed reason which should not be shown but it may in some buggy condition. [CHAR LIMIT=40] -->
+    <string name="fail_reason_unknown">Unknown error.</string>
+
+    <!-- The failed reason shown when vCard importer/exporter could not open the file
+         specified by a user. The file name should be in the message. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_could_not_open_file">Couldn\'t open \"<xliff:g id="file_name">%s</xliff:g>\": <xliff:g id="exact_reason">%s</xliff:g>.</string>
+
+    <!-- The failed reason shown when contacts exporter fails to be initialized.
+         Some exact reason must follow this. [CHAR LIMIT=NONE]-->
+    <string name="fail_reason_could_not_initialize_exporter">Couldn\'t start the exporter: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+
+    <!-- The failed reason shown when there's no contact which is allowed to be exported.
+         Note that user may have contacts data but all of them are probably not allowed to be
+         exported because of security/permission reasons. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_no_exportable_contact">There is no exportable contact.</string>
+
+    <!-- The user doesn't have all permissions required to use the current screen. So
+         close the current screen and show the user this message. -->
+    <string name="missing_required_permission">You have disabled a required permission.</string>
+
+    <!-- The failed reason shown when some error happend during contacts export.
+         Some exact reason must follow this. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_error_occurred_during_export">An error occurred during export: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+
+    <!-- The failed reason shown when the given file name is too long for the system.
+         The length limit of each file is different in each Android device, so we don't need to
+         mention it here. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_too_long_filename">Required filename is too long (\"<xliff:g id="filename">%s</xliff:g>\").</string>
+
+    <!-- The failed reason shown when Contacts app (especially vCard importer/exporter)
+         emitted some I/O error. Exact reason will be appended by the system. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_io_error">I/O error</string>
+
+    <!-- Failure reason show when Contacts app (especially vCard importer) encountered
+         low memory problem and could not proceed its import procedure. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_low_memory_during_import">Not enough memory. The file may be too large.</string>
+
+    <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
+         implementation. This might happen even when the input vCard is completely valid, though
+         we believe it is rather rare in the actual world. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_vcard_parse_error">Couldn\'t parse vCard for an unexpected reason.</string>
+
+    <!-- The failed reason shown when vCard importer doesn't support the format.
+         This may be shown when the vCard is corrupted [CHAR LIMIT=40] -->
+    <string name="fail_reason_not_supported">The format isn\'t supported.</string>
+
+    <!-- Fail reason shown when vCard importer failed to look over meta information stored in vCard file(s). -->
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Couldn\'t collect meta information of given vCard file(s).</string>
+
+    <!-- The failed reason shown when the import of some of vCard files failed during multiple vCard
+         files import. It includes the case where all files were failed to be imported. -->
+    <string name="fail_reason_failed_to_read_files">One or more files couldn\'t be imported (%s).</string>
+
+    <!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
+    <string name="exporting_vcard_finished_title">Finished exporting <xliff:g example="export.vcf" id="filename">%s</xliff:g>.</string>
+
+    <!-- The title shown when exporting vCard has finished successfully but the destination filename could not be resolved. [CHAR LIMIT=NONE] -->
+    <string name="exporting_vcard_finished_title_fallback">Finished exporting contacts.</string>
+
+    <!-- The toast message shown when exporting vCard has finished and vCards are ready to be shared [CHAR LIMIT=150]-->
+    <string name="exporting_vcard_finished_toast">Finished exporting contacts, click the notification to share contacts.</string>
+
+    <!-- The message on notification shown when exporting vCard has finished and vCards are ready to be shared [CHAR LIMIT=60]-->
+    <string name="touch_to_share_contacts">Tap to share contacts.</string>
+
+    <!-- The title shown when exporting vCard is canceled (probably by a user)
+         The argument is file name the user canceled importing.
+         [CHAR LIMIT=40] -->
+    <string name="exporting_vcard_canceled_title">Exporting <xliff:g example="export.vcf" id="filename">%s</xliff:g> canceled.</string>
+
+    <!-- Dialog title shown when the application is exporting contact data outside. [CHAR LIMIT=NONE] -->
+    <string name="exporting_contact_list_title">Exporting contact data</string>
+
+    <!-- Message shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_message">Contact data is being exported.</string>
+
+    <!-- The error reason the vCard composer "may" emit when database is corrupted or
+         something is going wrong. Usually users should not see this text. [CHAR LIMIT=NONE] -->
+    <string name="composer_failed_to_get_database_infomation">Couldn\'t get database information.</string>
+
+    <!-- This error message shown when the user actually have no contact
+         (e.g. just after data-wiping), or, data providers of the contact list prohibits their
+         contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your phone, some data providers may not allow the contacts to be exported from the phone.</string>
+
+    <!-- The error reason the vCard composer may emit when vCard composer is not initialized
+         even when needed.
+         Users should not usually see this error message. [CHAR LIMIT=NONE] -->
+    <string name="composer_not_initialized">The vCard composer didn\'t start properly.</string>
+
+    <!-- Dialog title shown when exporting Contact data failed. [CHAR LIMIT=20] -->
+    <string name="exporting_contact_failed_title">Couldn\'t export</string>
+
+    <!-- Dialog message shown when exporting Contact data failed. [CHAR LIMIT=NONE] -->
+    <string name="exporting_contact_failed_message">The contact data wasn\'t exported.\nReason: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+
+    <!-- Description shown when importing vCard data.
+         The argument is the name of a contact which is being read.
+         [CHAR LIMIT=20] -->
+    <string name="importing_vcard_description">Importing <xliff:g example="Joe Due" id="name">%s</xliff:g></string>
+
+    <!-- Dialog title shown when reading vCard data failed [CHAR LIMIT=40] -->
+    <string name="reading_vcard_failed_title">Couldn\'t read vCard data</string>
+
+    <!-- The title shown when reading vCard is canceled (probably by a user)
+         [CHAR LIMIT=40] -->
+    <string name="reading_vcard_canceled_title">Reading vCard data canceled</string>
+
+    <!-- The title shown when reading vCard finished
+         The argument is file name the user imported.
+         [CHAR LIMIT=40] -->
+    <string name="importing_vcard_finished_title">Finished importing vCard <xliff:g example="import.vcf" id="filename">%s</xliff:g></string>
+
+    <!-- The title shown when importing vCard is canceled (probably by a user)
+         The argument is file name the user canceled importing.
+         [CHAR LIMIT=40] -->
+    <string name="importing_vcard_canceled_title">Importing <xliff:g example="import.vcf" id="filename">%s</xliff:g> canceled</string>
+
+    <!-- The message shown when vCard import request is accepted. The system may start that work soon, or do it later
+         when there are already other import/export requests.
+         The argument is file name the user imported.
+         [CHAR LIMIT=40] -->
+    <string name="vcard_import_will_start_message"><xliff:g example="import.vcf" id="filename">%s</xliff:g> will be imported shortly.</string>
+    <!-- The message shown when vCard import request is accepted. The system may start that work soon, or do it later when there are already other import/export requests.
+         "The file" is what a user selected for importing.
+         [CHAR LIMIT=40] -->
+    <string name="vcard_import_will_start_message_with_default_name">The file will be imported shortly.</string>
+    <!-- The message shown when a given vCard import request is rejected by the system. [CHAR LIMIT=NONE] -->
+    <string name="vcard_import_request_rejected_message">vCard import request was rejected. Try again later.</string>
+    <!-- The message shown when vCard export request is accepted. The system may start that work soon, or do it later
+         when there are already other import/export requests.
+         The argument is file name the user exported.
+         [CHAR LIMIT=40] -->
+    <string name="vcard_export_will_start_message"><xliff:g example="import.vcf" id="filename">%s</xliff:g> will be exported shortly.</string>
+
+    <!-- The message shown when a vCard export request is accepted but the destination filename could not be resolved. [CHAR LIMIT=NONE] -->
+    <string name="vcard_export_will_start_message_fallback">The file will be exported shortly.</string>
+
+    <!-- The message shown when a vCard export request is accepted and contacts will be exported shortly. [CHAR LIMIT=70]-->
+    <string name="contacts_export_will_start_message">Contacts will be exported shortly.</string>
+
+    <!-- The message shown when a given vCard export request is rejected by the system. [CHAR LIMIT=NONE] -->
+    <string name="vcard_export_request_rejected_message">vCard export request was rejected. Try again later.</string>
+    <!-- Used when file name is unknown in vCard processing. It typically happens
+         when the file is given outside the Contacts app. [CHAR LIMIT=30] -->
+    <string name="vcard_unknown_filename">contact</string>
+
+    <!-- The message shown when vCard importer is caching files to be imported into local temporary
+         data storage. [CHAR LIMIT=NONE] -->
+    <string name="caching_vcard_message">Caching vCard(s) to local temporary storage. The actual import will start soon.</string>
+
+    <!-- Message used when vCard import has failed. [CHAR LIMIT=40] -->
+    <string name="vcard_import_failed">Couldn\'t import vCard.</string>
+
+    <!-- The "file name" displayed for vCards received directly via NFC [CHAR LIMIT=16] -->
+    <string name="nfc_vcard_file_name">Contact received over NFC</string>
+
+    <!-- Dialog title shown when a user confirms whether he/she export Contact data. [CHAR LIMIT=32] -->
+    <string name="confirm_export_title">Export contacts?</string>
+
+    <!-- The title shown when vCard importer is caching files to be imported into local temporary
+         data storage.  [CHAR LIMIT=40] -->
+    <string name="caching_vcard_title">Caching</string>
+
+    <!-- The message shown while importing vCard(s).
+         First argument is current index of contacts to be imported.
+         Second argument is the total number of contacts.
+         Third argument is the name of a contact which is being read.
+         [CHAR LIMIT=20] -->
+    <string name="progress_notifier_message">Importing <xliff:g id="current_number">%s</xliff:g>/<xliff:g id="total_number">%s</xliff:g>: <xliff:g example="Joe Due" id="name">%s</xliff:g></string>
+
+    <!-- Action that exports all contacts to a user selected destination. [CHAR LIMIT=25] -->
+    <string name="export_to_vcf_file" product="default">Export to .vcf file</string>
+
+    <!-- Contact preferences related strings -->
+
+    <!-- Label of the "sort by" display option -->
+    <string name="display_options_sort_list_by">Sort by</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_given_name">First name</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_family_name">Last name</string>
+
+    <!-- Label of the "name format" display option [CHAR LIMIT=64]-->
+    <string name="display_options_view_names_as">Name format</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_given_name_first">First name first</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_family_name_first">Last name first</string>
+
+    <!--Label of the "default account" setting option to set default editor account. [CHAR LIMIT=80]-->
+    <string name="default_editor_account">Default account for new contacts</string>
+
+    <!--Label of the "Sync contact metadata" setting option to set sync account for Lychee. [CHAR LIMIT=80]-->
+    <string name="sync_contact_metadata_title">Sync contact metadata [DOGFOOD]</string>
+
+    <!--Label of the "Sync contact metadata" setting dialog to set sync account for Lychee. [CHAR LIMIT=80]-->
+    <string name="sync_contact_metadata_dialog_title">Sync contact metadata</string>
+
+    <!-- Label of the "About" setting -->
+    <string name="setting_about">About Contacts</string>
+
+    <!-- Title of the settings activity [CHAR LIMIT=64] -->
+    <string name="activity_title_settings">Settings</string>
+
+    <!-- Action that shares visible contacts -->
+    <string name="share_visible_contacts">Share visible contacts</string>
+
+    <!-- A framework exception (ie, transaction too large) can be thrown while attempting to share all visible contacts. If so, show this toast. -->
+    <string name="share_visible_contacts_failure">Failed to share visible contacts.</string>
+
+    <!-- Action that shares favorite contacts [CHAR LIMIT=40]-->
+    <string name="share_favorite_contacts">Share favorite contacts</string>
+
+    <!-- Action that shares contacts [CHAR LIMIT=30]-->
+    <string name="share_contacts">Share all contacts</string>
+
+    <!-- A framework exception can be thrown while attempting to share all contacts. If so, show this toast. [CHAR LIMIT=40]-->
+    <string name="share_contacts_failure">Failed to share contacts.</string>
+
+    <!-- Dialog title when selecting the bulk operation to perform from a list. [CHAR LIMIT=36] -->
+    <string name="dialog_import_export">Import/export contacts</string>
+
+    <!-- Dialog title when importing contacts from an external source. [CHAR LIMIT=36] -->
+    <string name="dialog_import">Import contacts</string>
+
+    <!-- Toast indicating that sharing a contact has failed. [CHAR LIMIT=NONE]  -->
+    <string name="share_error">This contact can\'t be shared.</string>
+
+    <!-- Toast indicating that no visible contact to share [CHAR LIMIT=NONE]  -->
+    <string name="no_contact_to_share">There are no contacts to share.</string>
+
+    <!-- Menu item to search contacts -->
+    <string name="menu_search">Search</string>
+
+    <!-- The menu item to filter the list of contacts displayed -->
+    <string name="menu_contacts_filter">Contacts to display</string>
+
+    <!-- Title of the activity that allows the uesr to filter the list of contacts displayed according to account [CHAR LIMIT=25] -->
+    <string name="activity_title_contacts_filter">Contacts to display</string>
+
+    <!-- Title of the activity that allows the user to customize filtering of contact list [CHAR LIMIT=128] -->
+    <string name="custom_list_filter">Define custom view</string>
+
+    <!-- Query hint displayed inside the search field [CHAR LIMIT=64] -->
+    <string name="hint_findContacts">Find contacts</string>
+
+    <!-- The description text for the favorites tab.
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+         This is especially valuable for views without textual representation like ImageView.
+
+         [CHAR LIMIT=NONE] -->
+    <string name="contactsFavoritesLabel">Favorites</string>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "All contacts" is selected  [CHAR LIMIT=64]-->
+    <string name="listTotalAllContactsZero">No contacts.</string>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
+    <string name="listTotalAllContactsZeroCustom">No visible contacts.</string>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
+    <string name="listTotalAllContactsZeroStarred">No favorites</string>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when a group or account is selected  [CHAR LIMIT=64]-->
+    <string name="listTotalAllContactsZeroGroup">No contacts in <xliff:g example="Friends" id="name">%s</xliff:g></string>
+
+    <!--  The menu item to clear frequents [CHAR LIMIT=30] -->
+    <string name="menu_clear_frequents">Clear frequents</string>
+
+    <!-- Menu item to select SIM card -->
+    <string name="menu_select_sim">Select SIM card</string>
+
+    <!-- The menu item to open the list of accounts. [CHAR LIMIT=60]-->
+    <string name="menu_accounts">Manage accounts</string>
+
+    <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
+    <string name="menu_import_export">Import/export</string>
+
+    <!-- The font-family to use for tab text.
+         Do not translate. -->
+    <string name="tab_font_family">sans-serif</string>
+
+    <!-- Attribution of a contact status update, when the time of update is unknown -->
+    <string name="contact_status_update_attribution">via <xliff:g example="Google Talk" id="source">%1$s</xliff:g></string>
+
+    <!-- Attribution of a contact status update, when the time of update is known -->
+    <string name="contact_status_update_attribution_with_date"><xliff:g example="3 hours ago" id="date">%1$s</xliff:g> via <xliff:g example="Google Talk" id="source">%2$s</xliff:g></string>
+
+    <!-- Font family used when drawing letters for letter tile avatars.
+         Do not translate. -->
+    <string name="letter_tile_letter_font_family">sans-serif-medium</string>
+
+    <!-- Content description for the fake action menu up button as used
+     inside search. [CHAR LIMIT=NONE] -->
+    <string name="action_menu_back_from_search">stop searching</string>
+
+    <!--  String describing the icon used to clear the search field -->
+    <string name="description_clear_search">Clear search</string>
+
+    <!-- The font-family to use for the text inside the searchbox.
+         Do not translate. -->
+    <string name="search_font_family">sans-serif</string>
+
+    <!-- The title of the preference section that allows users to configure how they want their
+         contacts to be displayed. [CHAR LIMIT=128] -->
+    <string name="settings_contact_display_options_title">Contact display options</string>
+
+    <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+    <string name="select_account_dialog_title">Account</string>
+
+    <!-- Label for the check box to toggle default sim card setting [CHAR LIMIT=35]-->
+    <string name="set_default_account">Always use this for calls</string>
+
+    <!-- Title for dialog to select Phone Account for outgoing call.  [CHAR LIMIT=40] -->
+    <string name="select_phone_account_for_calls">Call with</string>
+
+    <!-- String used for actions in the dialer call log and the quick contact card to initiate
+         a call to an individual.  The user is prompted to enter a note which is sent along with
+         the call (e.g. a call subject). [CHAR LIMIT=40] -->
+    <string name="call_with_a_note">Call with a note</string>
+
+    <!-- Hint text shown in the call subject dialog. [CHAR LIMIT=255] -->
+    <string name="call_subject_hint">Type a note to send with call ...</string>
+
+    <!-- Button used to start a new call with the user entered subject. [CHAR LIMIT=32] -->
+    <string name="send_and_call_button">SEND &amp; CALL</string>
+
+    <!-- String used to represent the total number of characters entered for a call subject,
+         compared to the character limit.  Example: 2 / 64 -->
+    <string name="call_subject_limit"><xliff:g example="4" id="count">%1$s</xliff:g> / <xliff:g example="64" id="limit">%2$s</xliff:g></string>
+
+    <!-- String used to build a phone number bype and phone number string.
+         Example: Mobile • 650-555-1212  -->
+    <string name="call_subject_type_and_number"><xliff:g example="Mobile" id="type">%1$s</xliff:g> • <xliff:g example="(650) 555-1212" id="number">%2$s</xliff:g></string>
+
+    <!-- String format to describe the number of unread items in a tab.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="one">
+            <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> unread item.
+        </item>
+        <item quantity="other">
+            <xliff:g id="title">%1$s</xliff:g>. <xliff:g id="count">%2$d</xliff:g> unread items.
+        </item>
+    </plurals>
+
+    <!-- Build version title in About preference. [CHAR LIMIT=40]-->
+    <string name="about_build_version">Build version</string>
+
+    <!-- Open source licenses title in About preference. [CHAR LIMIT=60] -->
+    <string name="about_open_source_licenses">Open source licenses</string>
+
+    <!-- Open source licenses summary in About preference. [CHAR LIMIT=NONE] -->
+    <string name="about_open_source_licenses_summary">License details for open source software</string>
+
+    <!-- Privacy policy title in About preference. [CHAR LIMIT=40]-->
+    <string name="about_privacy_policy">Privacy policy</string>
+
+    <!-- Terms of service title in about preference. [CHAR LIMIT=60]-->
+    <string name="about_terms_of_service">Terms of service</string>
+
+    <!-- Title for the activity that displays licenses for open source libraries. [CHAR LIMIT=100]-->
+    <string name="activity_title_licenses">Open source licenses</string>
+
+    <!-- Toast message showing when failed to open the url. [CHAR LIMIT=100]-->
+    <string name="url_open_error_toast">Failed to open the url.</string>
+
+    <!-- Content description of entries (including that radio button is checked) in contact
+         accounts list filter. For example: Google abc@gmail.com checked, etc [CHAR LIMIT=30]-->
+    <string name="account_filter_view_checked"><xliff:g id="account_info">%s</xliff:g> checked</string>
+
+    <!-- Content description of entries (including that the radio button is not checked) in contact
+         accounts list filter. For example: Google abc@gmail.com not checked, etc [CHAR LIMIT=30]-->
+    <string name="account_filter_view_not_checked"><xliff:g id="account_info">%s</xliff:g> not checked</string>
+
+    <!-- Description string for an action button to initiate a video call from search results.
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+         This is especially valuable for views without textual representation like ImageView.
+
+         [CHAR LIMIT=NONE]-->
+    <string name="description_search_video_call">Place video call</string>
+
+    <!-- String describing the back button in the dialpad. -->
+    <string name="description_dialpad_back">Navigate back</string>
+    <!-- String describing the overflow menu button in the dialpad. -->
+    <string name="description_dialpad_overflow">More options</string>
+
+    <!-- String describing the Delete/Backspace ImageButton.
+     Used by AccessibilityService to announce the purpose of the button.
+-->
+    <string name="description_delete_button">backspace</string>
+
+
+    <!--  Do not translate. -->
+    <string name="dialpad_star_number">*</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_pound_number">#</string>
+
+    <!--  Do not translate. -->
+    <string name="dialpad_0_letters">+</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_1_letters"></string>
+    <!--  Do not translate. -->
+    <string name="dialpad_2_letters">ABC</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_3_letters">DEF</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_4_letters">GHI</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_5_letters">JKL</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_6_letters">MNO</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_7_letters">PQRS</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_8_letters">TUV</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_9_letters">WXYZ</string>
+    <!--  Do not translate. -->
+    <string name="dialpad_star_letters"></string>
+    <!--  Do not translate. -->
+    <string name="dialpad_pound_letters"></string>
+
+    <!--  String describing the button used to add a plus (+) symbol to the dialpad -->
+    <string name="description_image_button_plus">plus</string>
+    <!-- String describing the Voicemail ImageButton.
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_voicemail_button">voicemail</string>
+
+    <!-- Dialog message which is shown when the user tries to check voicemail
+     while the system is in airplane mode. The user cannot access to
+     voicemail service in Airplane mode. [CHAR LIMI=NONE] -->
+    <string name="dialog_voicemail_airplane_mode_message">To call voicemail, first turn off Airplane mode.</string>
+
+    <!-- Dialog message which is shown when the user tries to check voicemail
+       while the system isn't ready for the access. [CHAR LIMIT=NONE] -->
+    <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu &gt; Settings.</string>
+
+
+    <!-- Application name used in Settings/Apps. Default label for activities
+     that don't specify a label. -->
+    <string name="applicationLabel">Danew Dialer</string>
+
+    <!-- Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon. -->
+    <string name="launcherActivityLabel">Danew Dialer</string>
+
+
+    <!-- Title for the activity that dials the phone, when launched directly into the dialpad -->
+    <string name="launcherDialpadActivityLabel">Phone Dialpad</string>
+    <!-- The description text for the dialer tab.
+
+    Note: AccessibilityServices use this attribute to announce what the view represents.
+    This is especially valuable for views without textual representation like ImageView.
+
+    [CHAR LIMIT=NONE] -->
+    <string name="dialerIconLabel">Danew Dialer</string>
+
+    <!-- The description text for the call log tab.
+
+    Note: AccessibilityServices use this attribute to announce what the view represents.
+    This is especially valuable for views without textual representation like ImageView.
+
+    [CHAR LIMIT=NONE] -->
+    <string name="callHistoryIconLabel">Call history</string>
+
+    <!-- Text for a menu item to report a call as having been incorrectly identified. [CHAR LIMIT=48] -->
+    <string name="action_report_number">Report inaccurate number</string>
+
+    <!-- Option displayed in context menu to copy long pressed phone number. [CHAR LIMIT=48] -->
+    <string name="action_copy_number_text">Copy number</string>
+
+    <!-- Option displayed in context menu to copy long pressed voicemail transcription. [CHAR LIMIT=48] -->
+    <string name="copy_transcript_text">Copy transcription</string>
+
+    <!-- Label for action to block a number. [CHAR LIMIT=48] -->
+    <string name="action_block_number">Block number</string>
+
+    <!-- Text for snackbar to undo blocking a number. [CHAR LIMIT=64] -->
+    <string name="snackbar_number_blocked">
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> blocked</string>
+
+    <!-- Label for action to unblock a number [CHAR LIMIT=48]-->
+    <string name="action_unblock_number">Unblock number</string>
+
+    <!-- Text for snackbar to undo unblocking a number. [CHAR LIMIT=64] -->
+    <string name="snackbar_number_unblocked">
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+        unblocked</string>
+
+    <!-- Text for undo button in snackbar for blocking/unblocking number. [CHAR LIMIT=10] -->
+    <string name="block_number_undo">UNDO</string>
+
+    <!-- Menu item in call details used to remove a call or voicemail from the call log. -->
+    <string name="call_details_delete">Delete</string>
+
+    <!-- Label for action to edit a number before calling it. [CHAR LIMIT=48] -->
+    <string name="action_edit_number_before_call">Edit number before call</string>
+
+    <!-- Menu item used to remove all calls from the call log -->
+    <string name="call_log_delete_all">Clear call history</string>
+
+    <!-- Menu item used to delete a voicemail. [CHAR LIMIT=30] -->
+    <string name="call_log_trash_voicemail">Delete voicemail</string>
+
+    <!-- Menu item used to archive a voicemail. [CHAR LIMIT=30] -->
+    <string name="call_log_archive_voicemail">Archive voicemail</string>
+
+    <!-- Menu item used to send a voicemail through other applications [CHAR LIMIT=30] -->
+    <string name="call_log_share_voicemail">Share voicemail</string>
+
+    <!-- Text for snackbar to undo a voicemail delete. [CHAR LIMIT=30] -->
+    <string name="snackbar_voicemail_deleted">Voicemail deleted</string>
+
+    <!-- Text for snackbar to undo a voicemail archive. [CHAR LIMIT=30] -->
+    <string name="snackbar_voicemail_archived">Voicemail archived</string>
+
+    <!-- Text for undo button in snackbar for voicemail deletion. [CHAR LIMIT=10] -->
+    <string name="snackbar_voicemail_deleted_undo">UNDO</string>
+
+    <!-- Text for going to archive button in snackbar for voicemail archive. [CHAR LIMIT=10] -->
+    <string name="snackbar_voicemail_archived_goto">GOTO ARCHIVE</string>
+
+    <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
+    <string name="clearCallLogConfirmation_title">Clear call history?</string>
+
+    <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
+    <string name="clearCallLogConfirmation">This will delete all calls from your history</string>
+
+    <!-- Title of the "Clearing call log" progress-dialog [CHAR LIMIT=35] -->
+    <string name="clearCallLogProgress_title">Clearing call history\u2026</string>
+
+    <!-- Title used for the activity for placing a call. This name appears
+         in activity disambig dialogs -->
+    <string name="userCallActivityLabel" product="default">Phone</string>
+
+    <!-- Notification strings -->
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">Missed call</string>
+    <!-- Missed call notification label, used when there's exactly one missed call from work contact -->
+    <string name="notification_missedWorkCallTitle">Missed work call</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">Missed calls</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> missed calls</string>
+    <!-- Message for "call back" Action, which is displayed in the missed call notificaiton.
+         The user will be able to call back to the person or the phone number.
+         [CHAR LIMIT=18] -->
+    <string name="notification_missedCall_call_back">Call back</string>
+    <!-- Message for "reply via sms" action, which is displayed in the missed call notification.
+         The user will be able to send text messages using the phone number.
+         [CHAR LIMIT=18] -->
+    <string name="notification_missedCall_message">Message</string>
+    <!-- DO NOT TRANSLATE. Hardcoded number used for restricted incoming phone numbers. -->
+    <string name="handle_restricted">RESTRICTED</string>
+
+    <!-- Title of the notification of new voicemails. [CHAR LIMIT=30] -->
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Voicemail</item>
+        <item quantity="other">
+            <xliff:g id="count">%1$d</xliff:g>
+            Voicemails
+        </item>
+    </plurals>
+
+    <!-- Used in the notification of a new voicemail for the action to play the voicemail. -->
+    <string name="notification_action_voicemail_play">Play</string>
+
+    <!-- Used to build a list of names or phone numbers, to indicate the callers who left
+         voicemails.
+         The first argument may be one or more callers, the most recent ones.
+         The second argument is an additional callers.
+         This string is used to build a list of callers.
+
+         [CHAR LIMIT=10]
+     -->
+    <string name="notification_voicemail_callers_list"><xliff:g id="newer_callers">%1$s</xliff:g>,
+        <xliff:g id="older_caller">%2$s</xliff:g>
+    </string>
+
+    <!-- Text used in the ticker to notify the user of the latest voicemail. [CHAR LIMIT=30] -->
+    <string name="notification_new_voicemail_ticker">New voicemail from
+        <xliff:g id="caller">%1$s</xliff:g>
+    </string>
+
+    <!-- Message to show when there is an error playing back the voicemail. [CHAR LIMIT=40] -->
+    <string name="voicemail_playback_error">Couldn\'t play voicemail</string>
+
+    <!-- Message to display whilst we are waiting for the content to be fetched. [CHAR LIMIT=40] -->
+    <string name="voicemail_fetching_content">Loading voicemail\u2026</string>
+
+    <!-- Message to display whilst we are waiting for the content to be archived. [CHAR LIMIT=40] -->
+    <string name="voicemail_archiving_content">Archiving voicemail\u2026</string>
+
+    <!-- Message to display if we fail to get content within a suitable time period. [CHAR LIMIT=40] -->
+    <string name="voicemail_fetching_timout">Couldn\'t load voicemail</string>
+
+    <!-- The header to show that call log is only showing voicemail calls. [CHAR LIMIT=40] -->
+    <string name="call_log_voicemail_header">Calls with voicemail only</string>
+
+    <!-- The header to show that call log is only showing incoming calls. [CHAR LIMIT=40] -->
+    <string name="call_log_incoming_header">Incoming calls only</string>
+
+    <!-- The header to show that call log is only showing outgoing calls. [CHAR LIMIT=40] -->
+    <string name="call_log_outgoing_header">Outgoing calls only</string>
+
+    <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
+    <string name="call_log_missed_header">Missed calls only</string>
+
+    <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
+    <string name="visual_voicemail_title">Visual voicemail</string>
+
+    <!-- Promo card text for visual voicemail. -->
+    <string name="visual_voicemail_text">
+        See and listen to your voicemail, without having to call a number. Data charges may apply.
+    </string>
+
+    <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
+    <string name="visual_voicemail_settings">Settings</string>
+
+    <!--  Voicemail status message shown at the top of call log to notify the user that no new
+    voicemails are currently available. This can happen when both notification as well as data
+    connection to the voicemail server is lost. [CHAR LIMIT=64] -->
+    <string name="voicemail_status_voicemail_not_available">Voicemail updates not available</string>
+    <!--  Voicemail status message shown at the top of call log to notify the user that there is no
+      data connection to the voicemail server, but there are new voicemails waiting on the server.
+      [CHAR LIMIT=64] -->
+    <string name="voicemail_status_messages_waiting">New voicemail waiting. Can\'t load right now.</string>
+    <!--  Voicemail status message shown at the top of call log to invite the user to configure
+    visual voicemail. [CHAR LIMIT=64] -->
+    <string name="voicemail_status_configure_voicemail">Set up your voicemail</string>
+    <!--  Voicemail status message shown at the top of call details screen to notify the user that
+    the audio of this voicemail is not available. [CHAR LIMIT=64] -->
+    <string name="voicemail_status_audio_not_available">Audio not available</string>
+
+    <!--  User action prompt shown next to a voicemail status message to let the user configure
+    visual voicemail. [CHAR LIMIT=20] -->
+    <string name="voicemail_status_action_configure">Set up</string>
+    <!--  User action prompt shown next to a voicemail status message to let the user call voicemail
+    server directly to listen to the voicemails. [CHAR LIMIT=20] -->
+    <string name="voicemail_status_action_call_server">Call voicemail</string>
+
+    <!-- The counter for calls in a group and the date of the latest call as shown in the call log [CHAR LIMIT=15] -->
+    <string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>)
+        <xliff:g id="date">%2$s</xliff:g>
+    </string>
+
+    <!-- Title for the sms disambiguation dialog -->
+    <string name="sms_disambig_title">Choose number</string>
+
+    <!-- Title for the call disambiguation dialog -->
+    <string name="call_disambig_title">Choose number</string>
+
+    <!-- Message next to disamgiguation dialog check box -->
+    <string name="make_primary">Remember this choice</string>
+
+    <!-- String describing the Search ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_search_button">search</string>
+
+    <!-- String describing the Dial ImageButton
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_dial_button">dial</string>
+
+    <!-- String describing the digits text box containing the number to dial.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_digits_edittext">number to dial</string>
+
+    <!-- String describing the button in the voicemail playback to start/stop playback.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_playback_start_stop">Play or stop playback</string>
+
+    <!-- String describing the button in the voicemail playback to switch on/off speakerphone.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_playback_speakerphone">Switch on or off speakerphone</string>
+
+    <!-- String describing the seekbar in the voicemail playback to seek playback position.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_playback_seek">Seek playback position</string>
+
+    <!-- String describing the button in the voicemail playback to decrease playback rate.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_rate_decrease">Decrease playback rate</string>
+
+    <!-- String describing the button in the voicemail playback to increase playback rate.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_rate_increase">Increase playback rate</string>
+
+    <!-- Content description for the fake action menu button that brings up the call history
+         activity -->
+    <string name="action_menu_call_history_description">Call History</string>
+
+    <!-- Content description for the fake action menu overflow button.
+         This should be same as the description for the real action menu
+         overflow button available in ActionBar.
+         [CHAR LIMIT=NONE] -->
+    <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+
+    <!-- Content description for the button that displays the dialpad
+         [CHAR LIMIT=NONE] -->
+    <string name="action_menu_dialpad_button">dial pad</string>
+
+    <!-- Menu item used to show only outgoing in the call log. [CHAR LIMIT=30] -->
+    <string name="menu_show_outgoing_only">Show outgoing only</string>
+
+    <!-- Menu item used to show only incoming in the call log. [CHAR LIMIT=30] -->
+    <string name="menu_show_incoming_only">Show incoming only</string>
+
+    <!-- Menu item used to show only missed in the call log. [CHAR LIMIT=30] -->
+    <string name="menu_show_missed_only">Show missed only</string>
+
+    <!-- Menu item used to show only voicemails in the call log. [CHAR LIMIT=30] -->
+    <string name="menu_show_voicemails_only">Show voicemails only</string>
+
+    <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
+    <string name="menu_show_all_calls">Show all calls</string>
+
+    <!-- Menu items for dialpad options as part of Pause and Wait ftr [CHAR LIMIT=30] -->
+    <string name="add_2sec_pause">Add 2-sec pause</string>
+    <string name="add_wait">Add wait</string>
+
+    <!-- Label for the dialer app setting page [CHAR LIMIT=30]-->
+    <string name="dialer_settings_label">Settings</string>
+
+    <!-- Menu item to create a new contact [CHAR LIMIT=30] -->
+    <string name="menu_newContact">New contact</string>
+
+    <!-- Menu item to display all contacts [CHAR LIMIT=30] -->
+    <string name="menu_allContacts">All contacts</string>
+
+    <!-- Title bar for call detail screen -->
+    <string name="callDetailTitle">Call details</string>
+
+    <!-- Toast for call detail screen when couldn't read the requested details -->
+    <string name="toast_call_detail_error">Details not available</string>
+
+    <!-- Item label: jump to the in-call DTMF dialpad.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
+
+    <!-- Item label: jump to the in-call UI.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+
+    <!-- Item label: use the Dialer's dialpad to add another call.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_addAnotherCall">Add call</string>
+
+    <!-- Title for incoming call type. [CHAR LIMIT=40] -->
+    <string name="type_incoming">Incoming call</string>
+
+    <!-- Title for outgoing call type. [CHAR LIMIT=40] -->
+    <string name="type_outgoing">Outgoing call</string>
+
+    <!-- Title for missed call type. [CHAR LIMIT=40] -->
+    <string name="type_missed">Missed call</string>
+
+    <!-- Title for incoming video call in call details screen [CHAR LIMIT=60] -->
+    <string name="type_incoming_video">Incoming video call</string>
+
+    <!-- Title for outgoing video call in call details screen [CHAR LIMIT=60] -->
+    <string name="type_outgoing_video">Outgoing video call</string>
+
+    <!-- Title for missed video call in call details screen [CHAR LIMIT=60] -->
+    <string name="type_missed_video">Missed video call</string>
+
+    <!-- Title for voicemail details screen -->
+    <string name="type_voicemail">Voicemail</string>
+
+    <!-- Title for rejected call type. [CHAR LIMIT=40] -->
+    <string name="type_rejected">Declined call</string>
+
+    <!-- Title for blocked call type. [CHAR LIMIT=40] -->
+    <string name="type_blocked">Blocked call</string>
+
+    <!-- Description for incoming calls going to voice mail vs. not -->
+    <string name="actionIncomingCall">Incoming calls</string>
+
+    <!-- String describing the icon in the call log used to play a voicemail.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_call_log_play_button">Play voicemail</string>
+
+    <!-- String describing the button to view the contact for the current number.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_view_contact">View contact <xliff:g id="name">%1$s</xliff:g></string>
+
+    <!-- String describing the button to call a number or contact.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_call">Call <xliff:g id="name">%1$s</xliff:g></string>
+
+    <!-- String describing the button to access the contact details for a name or number.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_contact_details">Contact details for <xliff:g id="nameOrNumber">%1$s</xliff:g></string>
+
+    <!-- String indicating the number of calls to/from a caller in the call log.
+
+    Note: AccessibilityServices use this attribute to announce what the view represents.
+          This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_num_calls"><xliff:g id="numberOfCalls">%1$s</xliff:g> calls.</string>
+
+    <!-- String indicating a call log entry had video capabilities.
+
+    Note: AccessibilityServices use this attribute to announce what the view represents.
+          This is especially valuable for views without textual representation like ImageView.
+          [CHAR LIMIT=NONE]
+    -->
+    <string name="description_video_call">Video call.</string>
+
+    <!-- String describing the button to SMS a number or contact.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+              [CHAR LIMIT=NONE]
+    -->
+    <string name="description_send_text_message">Send SMS to <xliff:g id="name">%1$s</xliff:g></string>
+
+    <!-- String describing the icon in the call log used to represent an unheard voicemail left to
+         the user.
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+              [CHAR LIMIT=NONE]
+    -->
+    <string name="description_call_log_unheard_voicemail">Unheard voicemail</string>
+
+    <!-- String describing the icon used to start a voice search -->
+    <string name="description_start_voice_search">Start voice search</string>
+
+    <!-- Menu item used to call a contact, containing the number of the contact to call -->
+    <string name="menu_callNumber">Call <xliff:g id="number">%s</xliff:g></string>
+
+    <!-- String used to display calls from unknown numbers in the call log -->
+    <string name="unknown">Unknown</string>
+
+    <!-- String used for displaying calls to the voicemail number in the call log -->
+    <string name="voicemail">Voicemail</string>
+
+    <!-- String used to display calls from private numbers in the call log -->
+    <string name="private_num">Private number</string>
+
+    <!-- String used to display calls from pay phone in the call log -->
+    <string name="payphone">Payphone</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
+    <string name="callDetailsShortDurationFormat"><xliff:g example="28" id="seconds">%s</xliff:g> sec</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
+    <string name="callDetailsDurationFormat"><xliff:g example="42" id="minutes">%s</xliff:g> min <xliff:g example="28" id="seconds">%s</xliff:g> sec</string>
+
+    <!-- The string 'Today'. This value is used in the voicemailCallLogDateTimeFormat rather than an
+         explicit date string, e.g. Jul 25, 2014, in the event that a voicemail was created on the
+         current day -->
+    <string name="voicemailCallLogToday">@string/call_log_header_today</string>
+
+    <!-- A format string used for displaying the date and time for a voicemail call log. For example: Jul 25, 2014 at 2:49 PM
+         The date will be replaced by 'Today' for voicemails created on the current day. For example: Today at 2:49 PM -->
+    <string name="voicemailCallLogDateTimeFormat"><xliff:g example="Jul 25, 2014" id="date">%1$s</xliff:g> at <xliff:g example="2:49 PM" id="time">%2$s</xliff:g></string>
+
+    <!-- Format for duration of voicemails which are displayed when viewing voicemail logs. For example "01:22" -->
+    <string name="voicemailDurationFormat"><xliff:g example="10" id="minutes">%1$02d</xliff:g>:<xliff:g example="20" id="seconds">%2$02d</xliff:g></string>
+
+    <!-- A format string used for displaying the date, time and duration for a voicemail call log. For example: Jul 25, 2014 at 2:49 PM • 00:34 -->
+    <string name="voicemailCallLogDateTimeFormatWithDuration"><xliff:g example="Jul 25, 2014 at 2:49PM" id="dateAndTime">%1$s</xliff:g> \u2022 <xliff:g example="01:22" id="duration">%2$s</xliff:g></string>
+
+    <!-- Dialog message which is shown when the user tries to make a phone call
+         to prohibited phone numbers [CHAR LIMIT=NONE] -->
+    <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Can\'t call this number</string>
+
+    <!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
+    <string name="contact_list_loading">Loading\u2026</string>
+
+    <!-- The title of a dialog that displays the IMEI of the phone -->
+    <string name="imei">IMEI</string>
+
+    <!-- The title of a dialog that displays the MEID of the CDMA phone -->
+    <string name="meid">MEID</string>
+
+    <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_emptyLoading">Loading from SIM card\u2026</string>
+
+    <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_title">SIM card contacts</string>
+
+    <!-- Message displayed when there is no application available to handle the add contact menu option. [CHAR LIMIT=NONE] -->
+    <string name="add_contact_not_available">No contacts app available</string>
+
+    <!-- Message displayed when there is no application available to handle voice search. [CHAR LIMIT=NONE] -->
+    <string name="voice_search_not_available">Voice search not available</string>
+
+    <!-- Message displayed when the Phone application has been disabled and a phone call cannot
+         be made. [CHAR LIMIT=NONE] -->
+    <string name="call_not_available">Cannot make a phone call because the Phone application has been disabled.</string>
+
+    <!-- Message displayed when there is no application available to handle a particular action.
+         [CHAR LIMIT=NONE] -->
+    <string name="activity_not_available">No app for that on this device</string>
+
+    <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+         [CHAR LIMIT=30] -->
+    <string name="dialer_hint_find_contact">Search contacts</string>
+
+    <!-- Hint displayed in add blocked number search box when there is no query typed.
+         [CHAR LIMIT=45] -->
+    <string name="block_number_search_hint">Add number or search contacts</string>
+
+    <!-- String resource for the font-family to use for the call log activity's title
+         Do not translate. -->
+    <string name="call_log_activity_title_font_family">sans-serif-light</string>
+
+    <!-- String resource for the font-family to use for the full call history footer
+         Do not translate. -->
+    <string name="view_full_call_history_font_family">sans-serif</string>
+
+    <!-- Text displayed when the call log is empty. -->
+    <string name="call_log_all_empty">Your call history is empty</string>
+
+    <!-- Label of the button displayed when the call history is empty. Allows the user to make a call. -->
+    <string name="call_log_all_empty_action">Make a call</string>
+
+    <!-- Text displayed when the list of missed calls is empty -->
+    <string name="call_log_missed_empty">You have no missed calls.</string>
+
+    <!-- Text displayed when the list of voicemails is empty -->
+    <string name="call_log_voicemail_empty">Your voicemail inbox is empty.</string>
+
+    <!-- Text displayed when the list of voicemail archives is empty -->
+    <string name="voicemail_archive_empty">Your voicemail archive is empty.</string>
+
+    <!--  Menu option to show favorite contacts only -->
+    <string name="show_favorites_only">Show favorites only</string>
+
+    <!--  Title of activity that displays a list of all calls -->
+    <string name="call_log_activity_title">Call History</string>
+
+    <!--  Title of activity that displays a list of all archived voicemails -->
+    <string name="voicemail_archive_activity_title">Voicemail Archive</string>
+
+    <!-- Title for the call log tab containing the list of all voicemails and calls
+         [CHAR LIMIT=30] -->
+    <string name="call_log_all_title">All</string>
+
+    <!-- Title for the call log tab containing the list of all missed calls only
+         [CHAR LIMIT=30] -->
+    <string name="call_log_missed_title">Missed</string>
+
+    <!-- Title for the call log tab containing the list of all voicemail calls only
+         [CHAR LIMIT=30] -->
+    <string name="call_log_voicemail_title">Voicemail</string>
+
+    <!-- Title for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=30]-->
+    <string name="migrate_blocked_numbers_dialog_title">New, simplified blocking</string>
+
+    <!-- Body text for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
+    <string name="migrate_blocked_numbers_dialog_message">To better protect you, Phone needs to change how blocking works. Your blocked numbers will now stop both calls and texts and may be shared with other apps.</string>
+
+    <!-- Positive confirmation button for the dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
+    <string name="migrate_blocked_numbers_dialog_allow_button">Allow</string>
+
+    <!-- Do not translate -->
+    <string name="migrate_blocked_numbers_dialog_cancel_button">@android:string/cancel</string>
+
+    <!-- Confirmation dialog title for blocking a number. [CHAR LIMIT=NONE] -->
+    <string name="block_number_confirmation_title">Block
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+
+    <!-- Confirmation dialog message for blocking a number with visual voicemail active.
+         [CHAR LIMIT=NONE] -->
+    <string name="block_number_confirmation_message_vvm">
+        Calls from this number will be blocked and voicemails will be automatically deleted.
+    </string>
+
+    <!-- Confirmation dialog message for blocking a number with no visual voicemail.
+         [CHAR LIMIT=NONE] -->
+    <string name="block_number_confirmation_message_no_vvm">
+        Calls from this number will be blocked, but the caller may still be able to leave you voicemails.
+    </string>
+
+    <!-- Confirmation dialog message for blocking a number with new filtering enabled.
+         [CHAR LIMIT=NONE] -->
+    <string name="block_number_confirmation_message_new_filtering">
+        You will no longer receive calls or texts from this number.
+    </string>
+
+    <!-- Block number alert dialog button [CHAR LIMIT=32] -->
+    <string name="block_number_ok">BLOCK</string>
+
+    <!-- Confirmation dialog for unblocking a number. [CHAR LIMIT=NONE] -->
+    <string name="unblock_number_confirmation_title">Unblock
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+
+    <!-- Unblock number alert dialog button [CHAR LIMIT=32] -->
+    <string name="unblock_number_ok">UNBLOCK</string>
+
+    <!-- Accessibility text for the tab showing recent and favorite contacts who can be called.
+         [CHAR LIMIT=40] -->
+    <string name="tab_speed_dial">Speed dial</string>
+
+    <!-- Accessibility text for the tab showing the call history. [CHAR LIMIT=40] -->
+    <string name="tab_history">Call History</string>
+
+    <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
+    <string name="tab_all_contacts">Contacts</string>
+
+    <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
+    <string name="tab_voicemail">Voicemail</string>
+
+    <!--  Text displayed when user swipes out a favorite contact -->
+    <string name="favorite_hidden">Removed from favorites</string>
+    <!--  Text displayed for the undo button to undo removing a favorite contact -->
+    <string name="favorite_hidden_undo">Undo</string>
+
+    <!-- Shortcut item used to call a number directly from search -->
+    <string name="search_shortcut_call_number">Call
+        <xliff:g id="number">%s</xliff:g>
+    </string>
+
+    <!-- Shortcut item used to add a number directly to a new contact from search.
+         [CHAR LIMIT=25] -->
+    <string name="search_shortcut_create_new_contact">Create new contact</string>
+
+    <!-- Shortcut item used to add a number to an existing contact directly from search.
+         [CHAR LIMIT=25] -->
+    <string name="search_shortcut_add_to_contact">Add to a contact</string>
+
+    <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
+    <string name="search_shortcut_send_sms_message">Send SMS</string>
+
+    <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
+    <string name="search_shortcut_make_video_call">Make video call</string>
+
+    <!-- Shortcut item used to block a number directly from search. [CHAR LIMIT=25] -->
+    <string name="search_shortcut_block_number">Block number</string>
+
+    <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
+    <string name="num_missed_calls"><xliff:g id="number">%s</xliff:g> new missed calls</string>
+
+    <!-- Shown when there are no speed dial favorites. -->
+    <string name="speed_dial_empty">No one is on your speed dial yet</string>
+
+    <!-- Shown as an action when there are no speed dial favorites -->
+    <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+
+    <!-- Shown when there are no contacts in the all contacts list. -->
+    <string name="all_contacts_empty">You don\'t have any contacts yet</string>
+
+    <!-- Shown as an action when the all contacts list is empty -->
+    <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+
+    <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
+         card can be tapped to bring up a list of all numbers, or long pressed to start reordering
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="contact_tooltip">Touch image to see all numbers or touch &amp; hold to reorder</string>
+
+    <!-- Remove button that shows up when contact is long-pressed. [CHAR LIMIT=NONE] -->
+    <string name="remove_contact">Remove</string>
+
+    <!-- Button text for the "video call" displayed underneath an entry in the call log.
+         Tapping causes a video call to be placed to the caller represented by the call log entry.
+         [CHAR LIMIT=30] -->
+    <string name="call_log_action_video_call">Video call</string>
+
+    <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
+         messaging app to send a SMS to the number represented by the call log entry.
+         [CHAR LIMIT=30] -->
+    <string name="call_log_action_send_message">Send a message</string>
+
+    <!-- Button text for the button displayed underneath an entry in the call log.
+         Tapping navigates the user to the call details screen where the user can view details for
+         the call log entry. [CHAR LIMIT=30] -->
+    <string name="call_log_action_details">Call details</string>
+
+    <!-- Button text for the button displayed underneath an entry in the call log, which when
+         tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
+    <string name="call_log_action_call">
+        Call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- String describing an incoming missed call entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_incoming_missed_call">Missed call from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
+
+    <!-- String describing an incoming answered call entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_incoming_answered_call">Answered call from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
+
+    <!-- String describing an "unread" voicemail entry in the voicemails tab.
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_unread_voicemail">Unread voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
+
+    <!-- String describing a "read" voicemail entry in the voicemails tab.
+     Note: AccessibilityServices use this attribute to announce what the view represents.
+     [CHAR LIMIT=NONE] -->
+    <string name="description_read_voicemail">Voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
+
+    <!-- String describing an outgoing call entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_outgoing_call">Call to <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>, <xliff:g example="Mobile" id="typeOrLocation">^2</xliff:g>, <xliff:g example="2 min ago" id="timeOfCall">^3</xliff:g>, <xliff:g example="on SIM 1" id="phoneAccount">^4</xliff:g>.</string>
+
+    <!-- String describing the phone account the call was made on or to. This string will be used
+         in description_incoming_missed_call, description_incoming_answered_call, and
+         description_outgoing_call.
+         Note: AccessibilityServices uses this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_phone_account">on <xliff:g example="SIM 1" id="phoneAccount">^1</xliff:g></string>
+
+    <!-- String describing the secondary line number the call was received via.
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE]-->
+    <string name="description_via_number">via <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
+
+    <!-- TextView text item showing the secondary line number the call was received via.
+         [CHAR LIMIT=NONE]-->
+    <string name="call_log_via_number">via <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g></string>
+
+    <!-- String describing the PhoneAccount and via number that a call was received on, if both are
+         visible.
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+         [CHAR LIMIT=NONE]-->
+    <string name="description_via_number_phone_account">on <xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g>, via <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
+
+    <!-- The order of the PhoneAccount and via number that a call was received on,
+         if both are visible.
+         [CHAR LIMIT=NONE]-->
+    <string name="call_log_via_number_phone_account"><xliff:g example="SIM 1" id="phoneAccount">%1$s</xliff:g> via <xliff:g example="(555) 555-5555" id="number">%2$s</xliff:g></string>
+
+    <!-- String describing the phone icon on a call log list item. When tapped, it will place a
+         call to the number represented by that call log entry. [CHAR LIMIT=NONE]-->
+    <string name="description_call_log_call_action">Call</string>
+
+    <!-- String describing the "call" action for an entry in the call log.  The call back
+         action triggers a return call to the named user.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_call_action">
+        Call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- String describing the "video call" action for an entry in the call log.  The video call
+         action triggers a return video call to the named person/number.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_video_call_action">
+        Video call <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>.
+    </string>
+
+    <!-- String describing the "listen" action for an entry in the call log.  The listen
+         action is shown for call log entries representing a voicemail message and this button
+         triggers playing back the voicemail.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_action">
+        Listen to voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- String describing the "play voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_play">
+        Play voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- String describing the "pause voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_pause">
+        Pause voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+
+    <!-- String describing the "delete voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_delete">
+        Delete voicemail from <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <plurals name="description_voicemail_unread">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> new voicemail</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> new voicemails</item>
+    </plurals>
+
+    <!-- Description for the "create new contact" action for an entry in the call log. This action
+         opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
+    <string name="description_create_new_contact_action">
+        Create contact for <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- Description for the "add to existing contact" action for an entry in the call log. This
+         action opens a screen for adding this name or number to an existing contact.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_add_to_existing_contact_action">
+        Add <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g> to existing contact
+    </string>
+
+    <!-- String describing the "details" action for an entry in the call log.  The details action
+         displays the call details screen for an entry in the call log.  This shows the calls to
+         and from the specified number associated with the call log entry.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_details_action">
+        Call details for <xliff:g example="John Smith" id="nameOrNumber">^1</xliff:g>
+    </string>
+
+    <!-- Toast message which appears when a call log entry is deleted.
+         [CHAR LIMIT=NONE] -->
+    <string name="toast_entry_removed">Deleted from call history</string>
+
+    <!-- String used as a header in the call log above calls which occurred today.
+         [CHAR LIMIT=65] -->
+    <string name="call_log_header_today">Today</string>
+
+    <!-- String used as a header in the call log above calls which occurred yesterday.
+         [CHAR LIMIT=65] -->
+    <string name="call_log_header_yesterday">Yesterday</string>
+
+    <!-- String used as a header in the call log above calls which occurred two days or more ago.
+         [CHAR LIMIT=65] -->
+    <string name="call_log_header_other">Older</string>
+
+    <!-- String a header on the call details screen.  Appears above the list calls to or from a
+         particular number.
+         [CHAR LIMIT=65] -->
+    <string name="call_detail_list_header">Calls list</string>
+
+    <!-- String describing the "speaker on" button on the playback control used to listen to a
+         voicemail message.  When speaker is on, playback of the voicemail will occur through the
+         phone speaker.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="voicemail_speaker_on">Turn speaker on.</string>
+
+    <!-- String describing the "speaker off" button on the playback control used to listen to a
+         voicemail message.  When speaker is off, playback of the voicemail will occur through the
+         phone earpiece.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="voicemail_speaker_off">Turn speaker off.</string>
+
+    <!-- String describing the "play faster" button in the playback control used to listen to a
+         voicemail message.  Speeds up playback of the voicemail message.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="voicemail_play_faster">Play faster.</string>
+
+    <!-- String describing the "play slower" button in the playback control used to listen to a
+         voicemail message.  Slows down playback of the voicemail message.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="voicemail_play_slower">Play slower.</string>
+
+    <!-- String describing the "play/pause" button in the playback control used to listen to a
+         voicemail message.  Starts playback or pauses ongoing playback.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="voicemail_play_start_pause">Start or pause playback.</string>
+
+    <!-- Delimeter used between each item in a textual list; for example "Alpha, Beta".
+         [CHAR LIMIT=3] -->
+    <string name="list_delimeter">", "</string>
+
+    <!-- Dialer settings related strings-->
+
+    <!-- Title for "Display options" category, which controls how contacts are shown.
+         [CHAR LIMIT=40] -->
+    <string name="display_options_title">Display options</string>
+
+    <!-- Title for the "Sounds and vibration" settings control settings related to ringtones,
+         dialpad tones, and vibration for incoming calls. [CHAR LIMIT=40] -->
+    <string name="sounds_and_vibration_title">Sounds and vibration</string>
+
+    <!-- Title for "Accessibility" category, which controls settings such as TTY mode and hearing
+         aid compatability. [CHAR LIMIT=40] -->
+    <string name="accessibility_settings_title">Accessibility</string>
+
+    <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
+    <string name="ringtone_title">Phone ringtone</string>
+
+    <!-- Setting option name to enable or disable vibration when ringing the phone.
+         [CHAR LIMIT=30] -->
+    <string name="vibrate_on_ring_title">"Also vibrate for calls</string>
+
+    <!-- Setting option name to enable or disable DTMF tone sound [CHAR LIMIT=30] -->
+    <string name="dtmf_tone_enable_title">Dialpad tones</string>
+    <!-- Label for setting to adjust the length of DTMF tone sounds. [CHAR LIMIT=40] -->
+    <string name="dtmf_tone_length_title">Dialpad tone length</string>
+    <!-- Options displayed for the length of DTMF tone sounds. [CHAR LIMIT=40] -->
+    <string-array name="dtmf_tone_length_entries">
+        <item>Normal</item>
+        <item>Long</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="dtmf_tone_length_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Title of settings screen for managing the "Respond via SMS" feature. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_setting_title">Quick responses</string>
+
+    <!-- Label for the call settings section [CHAR LIMIT=30] -->
+    <string name="call_settings_label">Calls</string>
+
+    <!-- Label for the blocked numbers settings section [CHAR LIMIT=30] -->
+    <string name="manage_blocked_numbers_label">Call blocking</string>
+
+    <!-- Label for a section describing that call blocking is temporarily disabled because an
+         emergency call was made. [CHAR LIMIT=50] -->
+    <string name="blocked_numbers_disabled_emergency_header_label">
+        Call blocking temporarily off
+    </string>
+
+    <!-- Description that call blocking is temporarily disabled because the user called an
+         emergency number, and explains that call blocking will be re-enabled after a buffer
+         period has passed. [CHAR LIMIT=NONE] -->
+    <string name="blocked_numbers_disabled_emergency_desc">
+        Call blocking has been disabled because you contacted emergency services from this phone
+        within the last 48 hours. It will be automatically reenabled once the 48 hour period
+        expires.
+    </string>
+
+    <!-- Label for fragment to import numbers from contacts marked as send to voicemail.
+         [CHAR_LIMIT=30] -->
+    <string name="import_send_to_voicemail_numbers_label">Import numbers</string>
+
+    <!-- Text informing the user they have previously marked contacts to be sent to voicemail.
+         This will be followed by two buttons, 1) to view who is marked to be sent to voicemail
+         and 2) importing these settings to Dialer's block list. [CHAR LIMIT=NONE] -->
+    <string name="blocked_call_settings_import_description">
+        You previously marked some callers to be automatically sent to voicemail via other apps.
+    </string>
+
+    <!-- Label for button to view numbers of contacts previous marked to be sent to voicemail.
+         [CHAR_LIMIT=20] -->
+    <string name="blocked_call_settings_view_numbers_button">View Numbers</string>
+
+    <!-- Label for button to import settings for sending contacts to voicemail into Dialer's block
+         list. [CHAR_LIMIT=20] -->
+    <string name="blocked_call_settings_import_button">Import</string>
+
+    <!-- Error toast message for when send to voicemail import fails. [CHAR LIMIT=40] -->
+    <string name="send_to_voicemail_import_failed">Import failed</string>
+
+    <!-- Error toast message for when voicemail archive fails. [CHAR LIMIT=40] -->
+    <string name="voicemail_archive_failed">Failed to archive voicemail.</string>
+
+    <!-- String describing the delete icon on a blocked number list item.
+        When tapped, it will show a dialog confirming the unblocking of the number.
+        [CHAR LIMIT=NONE]-->
+    <string name="description_blocked_number_list_delete">Unblock number</string>
+
+    <!-- Button to bring up UI to add a number to the blocked call list. [CHAR LIMIT=40] -->
+    <string name="addBlockedNumber">Add number</string>
+
+    <!-- Footer message of number blocking screen with visual voicemail active.
+        [CHAR LIMIT=NONE] -->
+    <string name="block_number_footer_message_vvm">
+        Calls from these numbers will be blocked and voicemails will be automatically deleted.
+    </string>
+
+    <!-- Footer message of number blocking screen with no visual voicemail.
+         [CHAR LIMIT=NONE] -->
+    <string name="block_number_footer_message_no_vvm">
+         Calls from these numbers will be blocked, but they may still be able to leave you voicemails.
+    </string>
+
+    <!-- Heading for the block list in the "Spam and blocked cal)ls" settings. [CHAR LIMIT=64] -->
+    <string name="block_list">Blocked numbers</string>
+
+    <!-- Error message shown when user tries to add invalid number to the block list.
+        [CHAR LIMIT=64] -->
+    <string name="invalidNumber"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+        is invalid.</string>
+
+    <!-- Error message shown when user tries to add a number to the block list that was already
+        blocked. [CHAR LIMIT=64] -->
+    <string name="alreadyBlocked"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+        is already blocked.</string>
+
+    <!-- Title of notification telling the user that call blocking has been temporarily disabled.
+         [CHAR LIMIT=56] -->
+    <string name="call_blocking_disabled_notification_title">
+        Call blocking disabled for 48 hours
+    </string>
+
+    <!-- Text for notification which provides the reason that call blocking has been temporarily
+         disabled. Namely, we disable call blocking after an emergency call in case of return
+         phone calls made by emergency services. [CHAR LIMIT=64] -->
+    <string name="call_blocking_disabled_notification_text">
+        Disabled because an emergency call was made.
+    </string>
+
+    <!-- Label for the phone account settings [CHAR LIMIT=30] -->
+    <string name="phone_account_settings_label">Calling accounts</string>
+
+    <!-- DO NOT TRANSLATE. Internal key for ringtone preference. -->
+    <string name="ringtone_preference_key" translatable="false">button_ringtone_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for vibrate when ringing preference. -->
+    <string name="vibrate_on_preference_key" translatable="false">button_vibrate_on_ring</string>
+    <!-- DO NOT TRANSLATE. Internal key for vibrate when ringing preference. -->
+    <string name="play_dtmf_preference_key" translatable="false">button_play_dtmf_tone</string>
+    <!-- DO NOT TRANSLATE. Internal key for DTMF tone length preference. -->
+    <string name="dtmf_tone_length_preference_key" translatable="false">button_dtmf_settings</string>
+
+    <!-- The label of the button used to turn on a single permission [CHAR LIMIT=30]-->
+    <string name="permission_single_turn_on">Turn on</string>
+
+    <!--  The label of the button used to turn on multiple permissions [CHAR LIMIT=30]-->
+    <string name="permission_multiple_turn_on">Set permissions</string>
+
+    <!-- Shown as a prompt to turn on the contacts permission to enable speed dial [CHAR LIMIT=NONE]-->
+    <string name="permission_no_speeddial">To enable speed dial, turn on the Contacts permission.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to enable the call log [CHAR LIMIT=NONE]-->
+    <string name="permission_no_calllog">To see your call log, turn on the Phone permission.</string>
+
+    <!-- Shown as a prompt to turn on the contacts permission to show all contacts [CHAR LIMIT=NONE]-->
+    <string name="permission_no_contacts">To see your contacts, turn on the Contacts permission.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to show voicemails [CHAR LIMIT=NONE]-->
+    <string name="permission_no_voicemail">To access your voicemail, turn on the Phone permission.</string>
+
+    <!-- Shown as a prompt to turn on contacts permissions to allow contact search [CHAR LIMIT=NONE]-->
+    <string name="permission_no_search">To search your contacts, turn on the Contacts permissions.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed [CHAR LIMIT=NONE]-->
+    <string name="permission_place_call">To place a call, turn on the Phone permission.</string>
+
+    <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead. [CHAR LIMIT=NONE]-->
+    <string name="toast_cannot_write_system_settings">Phone app does not have permission to write to system settings.</string>
+
+    <!-- Label under the name of a blocked number in the call log. [CHAR LIMIT=15] -->
+    <string name="blocked_number_call_log_label">Blocked</string>
+
+    <!-- Accessibility announcement to indicate which call is active -->
+    <string name="accessibility_call_is_active"><xliff:g id="nameOrNumber">^1</xliff:g> is active</string>
+
+
+    <string name="contacts_file_provider_authority">com.android.contacts.files</string>
+
+</resources>
+
+
