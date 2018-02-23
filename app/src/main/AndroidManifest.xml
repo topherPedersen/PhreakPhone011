@@ -16,7 +16,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/phreak_phone_icon2"
+        android:icon="@drawable/phreak_phone_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -24,7 +24,7 @@
             android:name=".DialtactsActivity"
             android:clearTaskOnLaunch="true"
             android:directBootAware="true"
-            android:icon="@drawable/phreak_phone_icon2"
+            android:icon="@drawable/phreak_phone_icon"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
