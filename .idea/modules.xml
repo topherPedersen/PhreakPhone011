@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PhreakPhone011.iml" filepath="$PROJECT_DIR$/PhreakPhone011.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customdialer-master.iml" filepath="$PROJECT_DIR$/customdialer-master.iml" />
     </modules>
   </component>

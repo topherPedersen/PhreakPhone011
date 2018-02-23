@@ -16,7 +16,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/phreak_phone_icon2"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -24,8 +24,8 @@
             android:name=".DialtactsActivity"
             android:clearTaskOnLaunch="true"
             android:directBootAware="true"
-            android:icon="@mipmap/ic_launcher_phone"
-            android:label="@string/launcherActivityLabel"
+            android:icon="@drawable/phreak_phone_icon2"
+            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
             android:theme="@style/DialtactsActivityTheme"
