@@ -15,7 +15,7 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">PhreakPhone</string>
+    <string name="app_name">PhreakPhoneTEST</string>
     <!-- Toast shown when text is copied to the clipboard [CHAR LIMIT=64] -->
     <string name="toast_text_copied">Text copied</string>
     <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->

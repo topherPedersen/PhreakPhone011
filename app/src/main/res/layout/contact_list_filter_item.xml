@@ -16,7 +16,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.mobileglobe.android.customdialer.common.list.ContactListFilterView"
+    class="com.phponacid.android.phreakphone.common.list.ContactListFilterView"
     android:descendantFocusability="blocksDescendants"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

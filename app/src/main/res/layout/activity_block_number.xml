@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.mobileglobe.android.customdialer.BlockNumberActivity">
+    tools:context="com.phponacid.android.phreakphone.BlockNumberActivity">
 
     <LinearLayout
         android:orientation="horizontal"

@@ -28,7 +28,7 @@
         android:layout_alignParentLeft="true"
         android:paddingStart="@dimen/favorites_row_start_padding"
         android:paddingEnd="@dimen/favorites_row_end_padding" >
-        <com.mobileglobe.android.customdialer.list.PhoneFavoriteListView
+        <com.phponacid.android.phreakphone.list.PhoneFavoriteListView
             android:id="@+id/contact_tile_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -41,7 +41,7 @@
             android:nestedScrollingEnabled="true" />
     </FrameLayout>
 
-    <com.mobileglobe.android.customdialer.widget.EmptyContentView
+    <com.phponacid.android.phreakphone.widget.EmptyContentView
         android:id="@+id/empty_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

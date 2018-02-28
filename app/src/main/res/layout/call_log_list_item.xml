@@ -94,7 +94,7 @@
                         android:orientation="horizontal">
 
                         <view
-                            class="com.mobileglobe.android.customdialer.calllog.CallTypeIconsView"
+                            class="com.phponacid.android.phreakphone.calllog.CallTypeIconsView"
                             android:id="@+id/call_type_icons"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

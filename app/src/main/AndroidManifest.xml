@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobileglobe.android.customdialer">
+    package="com.phponacid.android.phreakphone">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".DialtactsActivity"
+            android:name="com.phponacid.android.phreakphone.DialtactsActivity"
             android:clearTaskOnLaunch="true"
             android:directBootAware="true"
             android:icon="@drawable/phreak_phone_icon"
@@ -104,7 +104,7 @@
                 android:resource="@layout/keyguard_preview" />
         </activity>
         <activity
-            android:name=".BlockNumberActivity"
+            android:name="com.phponacid.android.phreakphone.BlockNumberActivity"
             android:theme="@style/DialtactsActivityTheme">
         </activity>
     </application>

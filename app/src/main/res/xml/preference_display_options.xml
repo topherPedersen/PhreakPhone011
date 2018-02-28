@@ -15,19 +15,19 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.mobileglobe.android.customdialer.common.preference.SortOrderPreference
+    <com.phponacid.android.phreakphone.common.preference.SortOrderPreference
         android:icon="@null"
         android:key="sortOrder"
         android:title="@string/display_options_sort_list_by"
         android:dialogTitle="@string/display_options_sort_list_by" />
 
-    <com.mobileglobe.android.customdialer.common.preference.DisplayOrderPreference
+    <com.phponacid.android.phreakphone.common.preference.DisplayOrderPreference
         android:icon="@null"
         android:key="displayOrder"
         android:title="@string/display_options_view_names_as"
         android:dialogTitle="@string/display_options_view_names_as" />
 
-    <com.mobileglobe.android.customdialer.common.preference.DefaultAccountPreference
+    <com.phponacid.android.phreakphone.common.preference.DefaultAccountPreference
         android:icon="@null"
         android:key="accounts"
         android:title="@string/default_editor_account"

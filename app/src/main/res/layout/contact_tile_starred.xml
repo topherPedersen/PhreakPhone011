@@ -16,7 +16,7 @@
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ex="http://schemas.android.com/apk/res-auto"
-    class="com.mobileglobe.android.customdialer.common.list.ContactTileStarredView"
+    class="com.phponacid.android.phreakphone.common.list.ContactTileStarredView"
     android:focusable="true"
     android:background="?android:attr/selectableItemBackground">
 
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             ex:direction="widthToHeight"
             ex:ratio="1.0"
-            class="com.mobileglobe.android.customdialer.common.widget.ProportionalLayout" >
+            class="com.phponacid.android.phreakphone.common.widget.ProportionalLayout" >
             <ImageView
                 android:id="@+id/contact_tile_image"
                 android:layout_width="match_parent"

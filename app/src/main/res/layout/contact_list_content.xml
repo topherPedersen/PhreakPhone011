@@ -37,7 +37,7 @@
         android:layout_weight="1" >
         <include layout="@layout/contact_list_card"/>
         <view
-            class="com.mobileglobe.android.customdialer.common.list.PinnedHeaderListView"
+            class="com.phponacid.android.phreakphone.common.list.PinnedHeaderListView"
             android:id="@android:id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
